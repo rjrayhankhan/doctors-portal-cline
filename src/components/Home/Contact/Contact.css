@@ -1,0 +1,23 @@
+.contact {
+    background-image: url("../../../images/make-appointment.png");
+    position: relative;
+    z-index: 1;
+}
+
+.contact::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(12, 11, 27);
+    opacity: .8;
+    z-index: -1;
+}
+
+button {
+    background-image: linear-gradient(75deg, #19D3AE, #0fcfec);
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+}

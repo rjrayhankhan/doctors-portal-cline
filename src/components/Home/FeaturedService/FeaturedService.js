@@ -15,7 +15,7 @@ const FeaturedService = () => {
                         <p className="text-secondary my-5">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eum sequi deleniti corporis voluptates animi maiores iure temporibus dolorum praesentium autem voluptatem, sapiente accusamus recusandae tempora libero, illo minus quos iste nesciunt quas molestiae, facere tenetur enim. Hic maxime dicta maiores beatae aut quis quasi, iure illo molestiae dolorem ipsa omnis earum non unde, porro atque ullam. Fugiat eius sunt mollitia voluptas, assumenda illo blanditiis labore. In quibusdam deserunt ipsum omnis odit eaque, est suscipit!
                         </p>
-                        <button class="btn btn-primary">Learn More</button>
+                        <button class="py-2 px-4">Learn More</button>
                     </div>
                 </div>
             </div>

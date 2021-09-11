@@ -7,7 +7,7 @@ const HeaderMain = () => {
             <div className="col-md-4 offset-md-1">
                 <h1 style={{color: "#3A4256"}}>Your New Smile <br /> Starts Here</h1>
                 <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consectetur suscipit vitae neque non atque ex, asperiores omnis est. Delectus.</p>
-                <button className="btn btn-primary">GET APPOINTMENT</button>
+                <button className="py-2 px-3">GET APPOINTMENT</button>
             </div>
             <div className="col-md-6">
                 <img src={chair} alt="" className="img-fluid" />

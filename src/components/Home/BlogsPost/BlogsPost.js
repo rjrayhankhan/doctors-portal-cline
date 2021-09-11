@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
 
 const BlogsPost = ({blog}) => {
     const {title, description, author, authorImg, date} = blog;
@@ -14,6 +17,7 @@ const BlogsPost = ({blog}) => {
             <div className="card-body">
                 <h5>{title}</h5>
                 <p className="card-text text-secondary mt-4">{description}</p>
+                <FontAwesomeIcon className="right-icon" icon={faArrowRight}></FontAwesomeIcon>
             </div>
         </div>
     );
