@@ -51,7 +51,7 @@ const Footer = () => {
                         </ul>
                         <div className="mt-5">
                             <h6>Call now</h6>
-                            <button className="py-2 px-4">+2025550295</button>
+                            <button className="py-2 px-4 button">+2025550295</button>
                         </div>
                     </FooterCol>
                 </div>

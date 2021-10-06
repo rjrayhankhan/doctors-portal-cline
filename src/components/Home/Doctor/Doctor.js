@@ -1,19 +1,19 @@
 import React from 'react';
+import img from '../../../images/doctor.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 
-const Doctor = ({doctors}) => {
-    const {img, name, icon, phone} = doctors;
+const Doctor = ({ doctor }) => {
+    console.log(doctor)
     return (
-        <div className="col-md-4 my-5">
-            <img src={img} alt="" className="img-fluid" />
-            <div className="doctors-body text-center my-4">
-                <h5 style={{fontWeight:'bold'}}>{name}</h5>
-                <div className="d-flex justify-content-center">
-                    <FontAwesomeIcon style={{color:'#0fcfec'}} icon={icon}></FontAwesomeIcon>
-                    <p className="text-secondary">{phone}</p>
-                </div>
-            </div>
+        <div className="col-md-4 text-center">
+            {
+                doctor.image ? <img style={{ height: '200px' }} src={`data:image/png;base64,${doctor.image.img}`} alt=""/>
+                             : <img style={{ height: '200px' }} className="img-fluid mb-3" src={`http://localhost:5500/${doctor.img}`} alt="" />
+            }
+            <h4>{doctor.name}</h4>
+            <p> <FontAwesomeIcon className="text-primary" icon={faPhoneAlt} /> +880-188-934789</p>
         </div>
     );
 };

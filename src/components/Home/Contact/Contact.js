@@ -22,7 +22,7 @@ const Contact = () => {
                             <textarea name="" className="form-control" id="" cols="30" rows="10" placeholder="Message *"></textarea>
                         </div>
                         <div className="form-group text-center">
-                            <button type="button" className="my-4 px-5 py-2"> Submit </button>
+                            <button type="button" className="my-4 px-5 py-2 button"> Submit </button>
                         </div>
                     </form>
                 </div>

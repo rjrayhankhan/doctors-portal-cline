@@ -1,0 +1,10 @@
+.loginForm {
+    padding: 50px;
+}
+
+.input-aria {
+    width: 380px;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+}
